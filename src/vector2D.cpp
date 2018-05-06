@@ -2,7 +2,7 @@
 
 
 
-vector2D::vector2D(float xv = 0.0f, float yv = 0.0f)
+vector2D::vector2D(float xv , float yv )
 {
 	x = xv;
 	y = yv;
