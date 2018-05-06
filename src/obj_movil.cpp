@@ -20,11 +20,4 @@ void obj_movil::mover(float t)
 
 
 
-obj_movil::obj_movil()
-{
-}
 
-
-obj_movil::~obj_movil()
-{
-}

@@ -83,21 +83,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="bloque.cpp" />
-    <ClCompile Include="linea.cpp" />
-    <ClCompile Include="personaje_basico.cpp" />
+    <ClCompile Include="src\bloque1.cpp" />
+    <ClCompile Include="src\linea1.cpp" />
     <ClCompile Include="src\obj_fijo.cpp" />
     <ClCompile Include="src\obj_movil.cpp" />
     <ClCompile Include="src\Pang.cpp" />
+    <ClCompile Include="src\personaje_basico1.cpp" />
     <ClCompile Include="src\plataforma.cpp" />
     <ClCompile Include="src\vector2D.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="bloque.h" />
-    <ClInclude Include="linea.h" />
-    <ClInclude Include="personaje_basico.h" />
+    <ClInclude Include="src\bloque1.h" />
+    <ClInclude Include="src\linea1.h" />
     <ClInclude Include="src\obj_fijo.h" />
     <ClInclude Include="src\obj_movil.h" />
+    <ClInclude Include="src\personaje_basico1.h" />
     <ClInclude Include="src\plataforma.h" />
     <ClInclude Include="src\vector2D.h" />
   </ItemGroup>

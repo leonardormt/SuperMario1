@@ -1,9 +1,9 @@
 #pragma once
-#include"linea.h"
+#include "linea1.h"
 class plataforma
 {
-	linea arist_izq;
-	linea arist_der;
+	linea1 arist_izq;
+	linea1 arist_der;
 	float ancho;
 	vector2D origen;
 	float alto;
@@ -17,10 +17,4 @@ public:
 
 };
 
-class plataforma
-{
-public:
-	plataforma();
-	~plataforma();
-};
 

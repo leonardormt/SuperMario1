@@ -1,2 +1,7 @@
-﻿  Pang.cpp
-  Pang.vcxproj -> D:\Descargas\Tema4_completo2012\Tema4_inicial_2012\Tema4_inicial_2012\Pang\bin\Pang.exe
+﻿  vector2D.cpp
+c:\users\usuario\documents\github\supermario1\src\vector2d.cpp(5): error C2572: 'vector2D::vector2D': nueva definición de parámetro predeterminado: parámetro 1
+  c:\users\usuario\documents\github\supermario1\src\vector2d.h(9): note: vea la declaración de 'vector2D::vector2D'
+c:\users\usuario\documents\github\supermario1\src\vector2d.cpp(5): error C2572: 'vector2D::vector2D': nueva definición de parámetro predeterminado: parámetro 2
+  c:\users\usuario\documents\github\supermario1\src\vector2d.h(9): note: vea la declaración de 'vector2D::vector2D'
+  plataforma.cpp
+  Generando código...

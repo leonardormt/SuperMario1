@@ -25,11 +25,3 @@ void plataforma::dibuja()
 }
 
 
-plataforma::plataforma()
-{
-}
-
-
-plataforma::~plataforma()
-{
-}

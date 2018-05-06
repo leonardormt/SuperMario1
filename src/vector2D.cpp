@@ -47,12 +47,3 @@ vector2D vector2D::operator*(float f)
 }
 	
 
-
-vector2D::vector2D()
-{
-}
-
-
-vector2D::~vector2D()
-{
-}
