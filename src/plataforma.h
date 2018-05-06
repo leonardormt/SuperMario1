@@ -14,6 +14,13 @@ public:
 	plataforma();
 	~plataforma();
 	void dibuja();
+	void SetColor(unsigned char r, unsigned char g, unsigned char b);
+	void SetPos(float x1, float y1);
+	void SetAncho(float a) { ancho = a; }
+	void SetAlto(float a) { alto = a; }
+	void inicializa();
+
+
 
 };
 

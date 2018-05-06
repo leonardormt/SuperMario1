@@ -85,6 +85,7 @@
   <ItemGroup>
     <ClCompile Include="src\bloque1.cpp" />
     <ClCompile Include="src\linea1.cpp" />
+    <ClCompile Include="src\mundo.cpp" />
     <ClCompile Include="src\obj_fijo.cpp" />
     <ClCompile Include="src\obj_movil.cpp" />
     <ClCompile Include="src\Pang.cpp" />
@@ -95,6 +96,7 @@
   <ItemGroup>
     <ClInclude Include="src\bloque1.h" />
     <ClInclude Include="src\linea1.h" />
+    <ClInclude Include="src\mundo.h" />
     <ClInclude Include="src\obj_fijo.h" />
     <ClInclude Include="src\obj_movil.h" />
     <ClInclude Include="src\personaje_basico1.h" />

@@ -45,5 +45,13 @@ vector2D vector2D::operator*(float f)
 	ret.y = y * f;
 	return ret;
 }
+
+vector2D vector2D::operator=(vector2D & v)
+{
+	x = v.x;
+	y = v.y;
+
+	return *this;
+}
 	
 

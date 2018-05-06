@@ -10,6 +10,8 @@ protected:
 public:
 	obj_fijo();
 	~obj_fijo();
+	void SetColor(unsigned char r, unsigned char g, unsigned char b);
+	void SetPos(float x1, float y1);
 };
 
 

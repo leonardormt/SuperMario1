@@ -15,6 +15,6 @@ public: //métodos
 	vector2D operator + (vector2D &v); // (6) suma de vectores
 	float operator *(vector2D &v); // (7) producto escalar
 	vector2D operator *(float ); // (8) producto por un escalar 
-
+	vector2D operator =(vector2D &v);
 };
 

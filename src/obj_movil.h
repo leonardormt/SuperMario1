@@ -15,5 +15,8 @@ public:
 	obj_movil();
 	~obj_movil();
 	void mover( float t);
+	void SetColor(unsigned char r, unsigned char g, unsigned char b);
+	void SetPos(float x1, float y1);
+	void SetVel(float x1, float y1);
 
 };

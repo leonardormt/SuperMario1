@@ -9,5 +9,6 @@ public:
 	bloque1();
 	~bloque1();
 	void dibuja();
+	void SetLado(float l) { lado = l; }
 };
 
