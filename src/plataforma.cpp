@@ -16,10 +16,10 @@ void plataforma::dibuja()
 	glDisable(GL_LIGHTING);
 	glColor3ub(rojo, verde, azul);
 	glBegin(GL_POLYGON);
-	glVertex3d(arist_izq.limite1.x, arist_izq.limite1.y, 10);
-	glVertex3d(arist_izq.limite2.x, arist_izq.limite2.y, 10);
-	glVertex3d(arist_der.limite2.x, arist_der.limite2.y, -10);
-	glVertex3d(arist_der.limite1.x, arist_der.limite1.y, -10);
+	glVertex3d(arist_izq.limite1.x, arist_izq.limite1.y, 0);
+	glVertex3d(arist_izq.limite2.x, arist_izq.limite2.y, 0);
+	glVertex3d(arist_der.limite2.x, arist_der.limite2.y, 0);
+	glVertex3d(arist_der.limite1.x, arist_der.limite1.y, 0);
 	glEnd();
 	glEnable(GL_LIGHTING);
 }
@@ -40,9 +40,9 @@ void plataforma::SetPos(float x1, float y1)
 void plataforma::inicializa()
 {
 	arist_izq.limite1 = origen;
-	arist_izq.limite1.x = arist_izq.limite2.x;
+	arist_izq.limite2.x = arist_izq.limite1.x;
 	arist_izq.limite2.y = arist_izq.limite1.y + alto;
-	arist_der.limite2.y = arist_izq.limite2.y;
+	arist_der.limite2.y = arist_izq.limite2.y ;
 	arist_der.limite1.y = arist_izq.limite1.y;
 	arist_der.limite2.x = arist_izq.limite2.x + ancho;
 	arist_der.limite1.x = arist_der.limite2.x;

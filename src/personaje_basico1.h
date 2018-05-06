@@ -10,5 +10,7 @@ public:
 	personaje_basico1();
 	~personaje_basico1();
 	void dibuja();
+	float Getx() { return posicion.x; }
+	float Gety() { return posicion.y; }
 };
 
