@@ -3,6 +3,7 @@
 #include "personaje_basico1.h"
 #include "plataforma.h"
 #include "interaccion2.h"
+#include"malo_basico1.h"
 
 class mundo
 {
@@ -11,6 +12,9 @@ class mundo
 	bloque1 bloque;
 	personaje_basico1 mario;
 	plataforma suelo;
+	plataforma pared;
+	malo_basico1 champi;
+
 public:
 	mundo();
 	~mundo();

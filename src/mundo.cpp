@@ -15,17 +15,24 @@ void mundo::mueve()
 {
 	mario.mover(0.25f);
 	x_ojo = mario.Getx() - 3.0f;
+	y_ojo = mario.Gety();
 	interaccion2::colision(mario, suelo);
+	interaccion2::colision(mario, pared);
+	interaccion2::colision(champi,suelo);
+	champi.mover(0.25f);
+	
 
 }
 void mundo::dibuja()
 {
-	gluLookAt(x_ojo, y_ojo, 30,  // posicion del ojo
+	gluLookAt(x_ojo, 0, 30,  // posicion del ojo
 		x_ojo, 0, 0.0, //NOTESE QUE HEMOS CAMBIADO ESTO     
 		0.0, 1.0, 0.0); //PARA MIRAR AL CENTRO DE LA ESCENA   
 	mario.dibuja();
 	suelo.dibuja();
 	bloque.dibuja();
+	pared.dibuja();
+	champi.dibuja();
 
 }
 
@@ -38,6 +45,9 @@ void mundo::inicializa()
 	bloque.SetLado(1.0f);
 	bloque.SetPos(5.0f, 5.0f);
 
+	champi.SetColor(255, 255, 255);
+	champi.SetPos(4, 3);
+	champi.SetVel(0.5f, 0);
 	mario.SetColor(0, 255, 0);
 	mario.SetPos(10.0f, 5.0f);
 
@@ -46,6 +56,12 @@ void mundo::inicializa()
 	suelo.SetAncho(100);
 	suelo.SetAlto(3);
 	suelo.inicializa();
+
+	pared.SetColor(255, 255, 0);
+	pared.SetPos(15, 3);
+	pared.SetAncho(3);
+	pared.SetAlto(10);
+	pared.inicializa();
 
 	
 
