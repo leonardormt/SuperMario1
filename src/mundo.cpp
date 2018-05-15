@@ -15,6 +15,7 @@ void mundo::mueve()
 {
 	mario.mover(0.25f);
 	x_ojo = mario.Getx() - 3.0f;
+	interaccion2::colision(mario, suelo);
 
 }
 void mundo::dibuja()
@@ -38,13 +39,14 @@ void mundo::inicializa()
 	bloque.SetPos(5.0f, 5.0f);
 
 	mario.SetColor(0, 255, 0);
-	mario.SetPos(3.0f, 3.0f);
+	mario.SetPos(10.0f, 5.0f);
 
 	suelo.SetColor(0, 0, 255);
 	suelo.SetPos(0, 0);
 	suelo.SetAncho(100);
 	suelo.SetAlto(3);
 	suelo.inicializa();
+
 	
 
 }
@@ -57,6 +59,9 @@ void mundo::teclaEspecial(unsigned char key)
 		break;
 	case GLUT_KEY_RIGHT:
 		mario.SetVel(1.0f, 0.0f);
+		break;
+	case GLUT_KEY_UP:
+		mario.SetVel(0.0f, 9.0f);
 		break;
 	}
 }

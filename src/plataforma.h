@@ -19,6 +19,7 @@ public:
 	void SetAncho(float a) { ancho = a; }
 	void SetAlto(float a) { alto = a; }
 	void inicializa();
+	friend class interaccion2;
 
 
 

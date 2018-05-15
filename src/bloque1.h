@@ -10,5 +10,6 @@ public:
 	~bloque1();
 	void dibuja();
 	void SetLado(float l) { lado = l; }
+	friend class interaccion2;
 };
 

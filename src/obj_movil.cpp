@@ -4,7 +4,7 @@
 
 obj_movil::obj_movil()
 {
-
+	aceleracion.y = -9.8f;
 }
 
 

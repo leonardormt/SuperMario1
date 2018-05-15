@@ -2,6 +2,7 @@
 #include "bloque1.h"
 #include "personaje_basico1.h"
 #include "plataforma.h"
+#include "interaccion2.h"
 
 class mundo
 {

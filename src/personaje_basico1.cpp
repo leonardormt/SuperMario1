@@ -7,7 +7,7 @@ personaje_basico1::personaje_basico1()
 	velocidad.x = 0;
 	velocidad.y = 0;
 	aceleracion.x = 0;
-	aceleracion.y = 0;
+	
 	altura = 1;
 
 

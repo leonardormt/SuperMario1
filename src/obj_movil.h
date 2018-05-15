@@ -20,5 +20,5 @@ public:
 	void SetVel(float x1, float y1);
 	float Getx() { return posicion.x; }
 	float Gety() { return posicion.y; }
-
+	friend class interaccion2;
 };
