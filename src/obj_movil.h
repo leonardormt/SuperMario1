@@ -18,5 +18,7 @@ public:
 	void SetColor(unsigned char r, unsigned char g, unsigned char b);
 	void SetPos(float x1, float y1);
 	void SetVel(float x1, float y1);
+	float Getx() { return posicion.x; }
+	float Gety() { return posicion.y; }
 
 };
